@@ -87,6 +87,39 @@
       font: 400 11px Roboto, Arial, sans-serif;
       text-decoration: none;
     }
+
+
+    #translate-area{
+      background-color: #5d8191;
+    }
+
+    .title{
+      color: white;
+    }
+
+    .textarea{
+      background-color: aliceblue;
+      border-radius: 20px;
+      outline: none;
+      padding: 10px!important;
+    }
+
+    .textarea:focus {
+      outline: none !important;
+      border:2px solid #22373d;
+    }
+
+    .images{
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .handwriting{
+      font-family: 'Satisfy', cursive;
+      font-size: 50px;
+    }
   </style>
 
   <meta name="author" content="John Doe">
@@ -126,6 +159,9 @@
     nonce="b042ac65-79fc-441f-b22d-bd7b881026df"></script>
   <script type="text/javascript" charset="UTF-8" src="/static/js/controls.js"
     nonce="b042ac65-79fc-441f-b22d-bd7b881026df"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".mainmenu-area" data-new-gr-c-s-check-loaded="14.1058.0" data-gr-ext-installed="">
@@ -185,7 +221,7 @@
                 Provide Translator</h2>
               <div class="wow fadeInUp" data-wow-delay="0.5s"
                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><q>Easier to translate
-                  from English to Vietnamese</q></div>
+                  from Korean to Vietnamese</q></div>
               <div class="wow fadeInUp" data-wow-delay="0.7s"
                 style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
                 <a href="#translate-area" class="bttn bttn-lg bttn-primary">Translate Now</a>
@@ -200,17 +236,17 @@
   <section class="section-padding" id="translate-area">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6">
-          <center><h3>English</h3></center>
+        <div class="col-xs-6" style="text-align: center;">
+          <h3 class="title">Korean</h3>
           <textarea class="textarea input"></textarea>
         </div>
-        <div class="col-xs-6">
-          <center><h3>Vietnamese</h3></center>
+        <div class="col-xs-6" style="text-align: center;">
+          <h3 class="title">Vietnamese</h3>
           <textarea class="textarea output" disabled></textarea>
         </div>
       </div>
-      <div style="margin-top: 30px;">
-        <center><a href="#" class="bttn bttn-lg bttn-primary">Translate</a></center>
+      <div style="margin-top: 30px; text-align: center;" >
+        <a href="#" class="bttn bttn-lg bttn-primary">Translate</a>
       </div>
     </div>
   </section>
@@ -220,43 +256,37 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="text-center">
-            <h2 class="title">Our team</h2>
+            <h2 class="handwriting">Our team</h2>
             <!-- <p>There are many variations of passages of Lorem Ipsum available.</p> -->
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="row" style="padding: 0 85px;">
+        <div class="col-xs-6 col-sm-4 col-md-4">
           <div class="team-box wow fadeInUp" data-wow-delay="0.2s"
             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
             <div class="team-image">
-              <img src="/static/img/xteam-1.jpg.pagespeed.ic.Xxe_KHifgt.webp" alt="">
+              <!-- <img src="/static/img/2ecc1974f9e138bf61f0.jpg" alt=""> -->
+              <div class="images" style="background-image: url(/static/img/e61b2bc36320a27efb31.jpg);"></div>
             </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-3">
+        <div class="col-xs-6 col-sm-4 col-md-4">
           <div class="team-box wow fadeInUp" data-wow-delay="0.4s"
             style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
             <div class="team-image">
-              <img src="/static/img/xteam-2.jpg.pagespeed.ic.cbYTIYl5Z7.webp" alt="">
+              <!-- <img src="/static/img/e61b2bc36320a27efb31.jpg" alt=""> -->
+              <div class="images"  style="background-image: url(/static/img/2ecc1974f9e138bf61f0.jpg);"></div>
             </div>
 
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-3">
+        <div class="col-xs-6 col-sm-4 col-md-4">
           <div class="team-box wow fadeInUp" data-wow-delay="0.6s"
             style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="team-image">
-              <img src="/static/img/xteam-3.jpg.pagespeed.ic.xUHGrHWzx4.webp" alt="">
-            </div>
-
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3">
-          <div class="team-box wow fadeInUp" data-wow-delay="0.8s"
-            style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-            <div class="team-image">
-              <img src="/static/img/xteam-4.jpg.pagespeed.ic.shgMeBBJUS.webp" alt="">
+              <!-- <img src="/static/img/fc0876e2947755290c66.jpg" alt=""> -->
+              <div class="images"  style="background-image: url(/static/img/fc0876e2947755290c66.jpg);"></div>
             </div>
 
           </div>
@@ -272,7 +302,7 @@
         <div class="row">
           <div class="col-xs-12">
 
-            <p class="copyright"> Được thực hiện bởi <a href="https://colorlib.com/" target="_blank">Nhóm</a>
+            <p class="copyright" style="color: #023141;font-size: larger;"> Được thực hiện bởi Nhóm 6
             </p>
 
           </div>

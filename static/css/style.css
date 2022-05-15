@@ -152,7 +152,8 @@ input:-webkit-autofill:focus {
 
 .bttn.bttn-lg {
     padding: 18px 40px;
-    font-size: 20px
+    font-size: 20px;
+    background: linear-gradient(to right, #02394c 0%, #097297 100%);
 }
 
 .bttn:focus,
